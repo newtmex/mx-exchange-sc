@@ -10,5 +10,6 @@ path = "src/lib.rs"
 path = "../../common_errors"
 
 [dependencies.multiversx-sc]
-version = "=0.43.3"
+git = "https://github.com/newtmex/mx-sdk-rs.git"
+branch = "hackathon-feat"
 features = ["esdt-token-payment-legacy-decode"]

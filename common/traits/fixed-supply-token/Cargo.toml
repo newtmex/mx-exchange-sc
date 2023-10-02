@@ -7,4 +7,5 @@ edition = "2021"
 [lib]
 path = "src/lib.rs"
 [dependencies.multiversx-sc]
-version = "=0.43.3"
+git = "https://github.com/newtmex/mx-sdk-rs.git"
+branch = "hackathon-feat"

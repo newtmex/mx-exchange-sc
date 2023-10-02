@@ -12,11 +12,13 @@ num-bigint = "0.4.2"
 rand = "0.8.4"
 
 [dependencies.multiversx-sc]
-version = "=0.43.3"
+git = "https://github.com/newtmex/mx-sdk-rs.git"
+branch = "hackathon-feat"
 features = ["esdt-token-payment-legacy-decode"]
 
 [dependencies.multiversx-sc-scenario]
-version = "=0.43.3"
+git = "https://github.com/newtmex/mx-sdk-rs.git"
+branch = "hackathon-feat"
 
 [dependencies.pausable]
 path = "../../common/modules/pausable"

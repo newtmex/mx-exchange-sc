@@ -12,11 +12,13 @@ path = "src/lib.rs"
 hex-literal = "0.3.1"
 
 [dependencies.multiversx-sc]
-version = "=0.43.3"
+git = "https://github.com/newtmex/mx-sdk-rs.git"
+branch = "hackathon-feat"
 features = ["esdt-token-payment-legacy-decode"]
 
 [dependencies.multiversx-sc-modules]
-version = "=0.43.3"
+git = "https://github.com/newtmex/mx-sdk-rs.git"
+branch = "hackathon-feat"
 
 [dependencies.locking_module]
 path = "../../common/modules/locking_module"
@@ -30,4 +32,5 @@ hex = "0.4"
 path = "../../locked-asset/simple-lock"
 
 [dev-dependencies.multiversx-sc-scenario]
-version = "=0.43.3"
+git = "https://github.com/newtmex/mx-sdk-rs.git"
+branch = "hackathon-feat"

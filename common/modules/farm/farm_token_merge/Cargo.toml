@@ -22,8 +22,10 @@ path = "../../token_merge_helper"
 path = "../farm_token"
 
 [dependencies.multiversx-sc]
-version = "=0.43.3"
+git = "https://github.com/newtmex/mx-sdk-rs.git"
+branch = "hackathon-feat"
 features = ["esdt-token-payment-legacy-decode"]
 
 [dependencies.multiversx-sc-modules]
-version = "=0.43.3"
+git = "https://github.com/newtmex/mx-sdk-rs.git"
+branch = "hackathon-feat"

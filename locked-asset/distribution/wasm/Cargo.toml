@@ -23,4 +23,5 @@ default-features = false
 path = ".."
 
 [dependencies.multiversx-sc-wasm-adapter]
-version = "=0.43.3"
+git = "https://github.com/newtmex/mx-sdk-rs.git"
+branch = "hackathon-feat"

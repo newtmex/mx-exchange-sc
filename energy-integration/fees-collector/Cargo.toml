@@ -8,11 +8,13 @@ publish = false
 [lib]
 path = "src/lib.rs"
 [dependencies.multiversx-sc]
-version = "=0.43.3"
+git = "https://github.com/newtmex/mx-sdk-rs.git"
+branch = "hackathon-feat"
 features = ["esdt-token-payment-legacy-decode"]
 
 [dependencies.multiversx-sc-modules]
-version = "=0.43.3"
+git = "https://github.com/newtmex/mx-sdk-rs.git"
+branch = "hackathon-feat"
 
 [dependencies.energy-query]
 path = "../common-modules/energy-query"
@@ -48,7 +50,8 @@ path = "../../common/common_errors"
 num-bigint = "0.4.2"
 
 [dev-dependencies.multiversx-sc-scenario]
-version = "=0.43.3"
+git = "https://github.com/newtmex/mx-sdk-rs.git"
+branch = "hackathon-feat"
 
 [dev-dependencies.sc_whitelist_module]
 path = "../../common/modules/sc_whitelist_module"
